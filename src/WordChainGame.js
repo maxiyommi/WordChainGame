@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Moon, Sun } from 'lucide-react';
+import { Moon, Sun, Github } from 'lucide-react';
 
 const animalEmojis = ['🐶', '🐱', '🐭', '🐹', '🐰', '🦊', '🐻', '🐼', '🐨', '🐯', '🦁', '🐮', '🐷', '🐸', '🐵'];
 
@@ -211,10 +211,20 @@ const WordChainGame = () => {
   return (
     <div className={`min-h-screen w-full flex flex-col p-4 ${getThemeClass('bg-gradient-to-r from-purple-400 via-pink-500 to-red-500', 'bg-gradient-to-r from-gray-800 via-gray-900 to-black')}`}>
       {winner && <Confetti />}
-      <div className="flex justify-end mb-4">
+      <div className="flex justify-end mb-4 space-x-2">
+        <a
+          href="https://github.com/maxiyommi/WordChainGame"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`p-2 rounded-full ${getThemeClass('bg-white text-gray-800', 'bg-gray-700 text-white')} transition-colors duration-200`}
+          aria-label="Ver código fuente en GitHub"
+        >
+          <Github size={24} />
+        </a>
         <button
           onClick={toggleDarkMode}
           className={`p-2 rounded-full ${getThemeClass('bg-yellow-300 text-gray-800', 'bg-indigo-600 text-white')} transition-colors duration-200`}
+          aria-label={darkMode ? "Activar modo claro" : "Activar modo oscuro"}
         >
           {darkMode ? <Sun size={24} /> : <Moon size={24} />}
         </button>

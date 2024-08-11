@@ -3,7 +3,14 @@
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
+<div align="center">
+  <img src="images/image_1.png" alt="Pantalla de inicio" width="400"/>
+  <img src="images/image_2.png" alt="Juego en progreso" width="400" height="543"/>
+</div>
 Un juego interactivo de cadena de palabras construido con React. Desafía a un amigo a una batalla lingüística donde cada palabra comienza con la última letra de la palabra anterior.
+
+## 🎮 ¡Juega ahora!
+¡Haz clic [aquí](https://maxiyommi.github.io/WordChainGame/) para jugar al Juego de Cadena de Palabras!
 
 ## 🌟 Características
 
@@ -55,13 +62,14 @@ Las contribuciones son siempre bienvenidas. Aquí hay algunas formas en las que 
 2. 💡 Sugerir nuevas características.
 3. 🔧 Enviar pull requests con mejoras o correcciones.
 
+``` bash
+npm run deploy
+```
+
+
 ## 📜 Licencia
 
-Este proyecto está bajo la Licencia MIT. 
-
-## 📞 Contacto
-
-Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarme directamente en [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com).
+Este proyecto está bajo la [Licencia MIT](https://mit-license.org/). 
 
 ---
-¡Disfruta jugando y mejorando tu vocabulario con el Juego de Cadena de Palabras! 🎉🧠
+> ¡Disfruta jugando y mejorando tu vocabulario con el Juego de Cadena de Palabras! 🎉🧠
